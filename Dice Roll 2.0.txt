@@ -1,0 +1,30 @@
+﻿import turtle
+from random import *
+style = ('Courier', 30, 'italic')
+turtle.color('deep pink')
+def rl ():
+	turtle.undo()
+	NUM = randint(1,6)
+	if NUM == 6:
+		print('6')
+		turtle.write('6', font=style, align='center')
+	elif NUM == 5:
+		print('5')
+		turtle.write('5', font=style, align='center')
+	elif NUM == 4:
+		print('4')
+		turtle.write('4', font=style, align='center')
+	elif NUM == 3:
+		print('3')
+		turtle.write('3', font=style, align='center')
+	elif NUM == 2:
+		print('2')
+		turtle.write('2', font=style, align='center')
+	elif NUM == 1:
+		print('1')
+		turtle.write('1', font=style, align='center')
+	else:
+		print('ERROR')
+		turtle.write('ERROR', font=style, align='center')
+
+		
