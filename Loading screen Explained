@@ -1,0 +1,4 @@
+# Python-basics-01
+This program uses the Turtle to draw circles (5) in a row 
+but then moves back by retracing its steps it uses the 
+'while True:' command to loop itself.
