@@ -1,9 +1,9 @@
-﻿import turtle
+import turtle
 from random import *
 style = ('Courier', 30, 'italic')
-turtle.color('deep pink')
 def rl ():
 	turtle.undo()
+	turtle.color('deep pink')
 	NUM = randint(1,6)
 	if NUM == 6:
 		print('6')
