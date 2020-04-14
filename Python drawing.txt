@@ -1,9 +1,9 @@
-﻿import turtle 
+import turtle 
 import math
 import colorsys
 phi = 180*(3-math.sqrt(5))
 t = turtle.pen()
-t.speed(0)
+turtle.speed(0)
 def square (t, size):
     for tmp in range(0,4):
 	t.forward(size)
