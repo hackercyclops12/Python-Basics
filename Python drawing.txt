@@ -11,13 +11,13 @@ def square (t, size):
 num = 200
 
 for x in reversed(range(0, num)):
-    t.fillcolor(colorsys.hsv_to_rgb(x/num, 1.0, 1.0))
-    t.begin_fill()
-    t.circle(5 + x, None, 11)
+    turtle.fillcolor(colorsys.hsv_to_rgb(x/num, 1.0, 1.0))
+    turtle.begin_fill()
+    turtle.circle(5 + x, None, 11)
     square(t, 5 + x)
-    t.end_fill()
-    t.right(phi)
-    t.right(.8)
+    turtle.end_fill()
+    turtle.right(phi)
+    turtle.right(.8)
 
-turtle.mainloop()
+
 
