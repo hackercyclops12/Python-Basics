@@ -1,0 +1,6 @@
+from turtle import *
+
+color('deep pink')
+style = ('Courier', 30, 'italic')
+write('Hello!', font=style, align='center')
+hideturtle()
