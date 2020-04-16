@@ -1,4 +1,4 @@
-﻿from random import*
+from random import*
 
 from tkinter import*
 
@@ -12,7 +12,7 @@ canvas.pack()
 
 while True:
 	
-	col = choice(['pink','orange','purple','yellow'])
+	col = choice(['pink','orange','purple','yellow']) #change colors?
 	
 	x0 = randint(0, size)
  # replace  size var with x var for full screen circles	
