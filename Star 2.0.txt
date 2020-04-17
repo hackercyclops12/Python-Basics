@@ -1,0 +1,12 @@
+from turtle import *
+color('red', 'yellow')
+import random
+speed('fastest')
+while True:
+    X = random.randint(-1920,1920)
+    Y = random.randint(-1080,1080)
+    goto(X,Y)
+    
+    
+    
+    
