@@ -1,0 +1,20 @@
+from random import*
+
+from tkinter import*
+
+size = 100
+x = 1920
+y = 1080
+
+window = Tk()
+
+canvas = Canvas(window, width=x, height=y)
+canvas.pack()
+
+while True:
+    col = choice(['red','orange','yellow','green','cyan','magenta','pink']) 
+    x0 = randint(0, x)
+    y0 = randint(0, y)
+    d = randint(0, size)
+    canvas.create_oval(x0, y0, x0 + d, y0 + d, fill=col)
+    window.update()
