@@ -2,6 +2,7 @@ from turtle import *
 from math import *
 from time import *
 import colorsys
+speed('fastest')
 phi = 180*(3-sqrt(5))
 t = pen()
 speed(0)
@@ -19,6 +20,6 @@ while True:
         end_fill()
         right(phi)
         right(.8)
-        sleep(0.3)
+        sleep(0.7)
         clear()
         
