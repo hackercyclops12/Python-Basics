@@ -1,0 +1,38 @@
+from turtle import *
+from random import *
+style = ('Courier', 250, 'italic')
+color('deep pink')
+bgcolor('grey')
+hideturtle()
+def rl ():
+	clear()
+	NUM = randint(1,6)
+	if NUM == 6:
+		print('6')
+		write('6', font=style, align='center')
+		hideturtle()
+	elif NUM == 5:
+		print('5')
+		write('5', font=style, align='center')
+		hideturtle()
+	elif NUM == 4:
+		print('4')
+		write('4', font=style, align='center')
+		hideturtle()
+	elif NUM == 3:
+		print('3')
+		write('3', font=style, align='center')
+		hideturtle()
+	elif NUM == 2:
+		print('2')
+		write('2', font=style, align='center')
+		hideturtle()
+	elif NUM == 1:
+		print('1')
+		write('1', font=style, align='center')
+		hideturtle()
+	else:
+		print('ERROR')
+		write('ERROR', font=style, align='center')
+
+		
