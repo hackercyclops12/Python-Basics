@@ -1,0 +1,26 @@
+from turtle import *
+from math import *
+import colorsys
+speed('fastest')
+hideturtle()
+bgcolor('grey')
+phi = 180*(3-sqrt(5))
+t = pen()
+speed(0)
+def square (t, size):
+    for tmp in range(0,4):
+	    forward(size)
+	    right(90)
+num = 200
+while True:
+    clear()
+    for x in reversed(range(0, num)):
+        fillcolor(colorsys.hsv_to_rgb(x/num, 1.0, 1.0))
+        begin_fill()
+        circle(5 + x, None, 11)
+        square(t, 5 + x)
+        end_fill()
+        right(phi)
+        right(.8)
+  
+    
