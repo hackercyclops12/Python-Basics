@@ -17,6 +17,4 @@ while True:
     left(90)
     forward(20)
     lt(90)
-    forward(20)
-    circle(1000)
-    undo()            
+    forward(20)          
