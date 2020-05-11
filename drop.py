@@ -9,7 +9,7 @@ clock = pygame.time.Clock()
 title_image = pygame.image.load("/home/pi/Desktop/Title-Screen.png")
 game_over_image = pygame.image.load("/home/pi/Desktop/game_over.png")
 
-windowWidth = 800
+windowWidth = 815
 windowHeight = 1000
 
 surface = pygame.display.set_mode((windowWidth, windowHeight))
@@ -82,13 +82,13 @@ def movePlayer():
 
   if leftDown is True:
     if player["x"] > 0 and player["x"] - 5 > 0:
-      player["x"] -= 5
+      player["x"] -= 7
     elif player["x"] > 0 and player["x"] - 5 < 0:
       player["x"] = 0
 
   if rightDown is True:
     if player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 < windowWidth:
-      player["x"] += 5
+      player["x"] += 7
     elif player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 > windowWidth:
       player["x"] = windowWidth - player["width"]
 
