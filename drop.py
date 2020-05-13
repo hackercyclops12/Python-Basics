@@ -9,7 +9,7 @@ clock = pygame.time.Clock()
 title_image = pygame.image.load("/home/pi/Desktop/Title-Screen.png")
 game_over_image = pygame.image.load("/home/pi/Desktop/game_over.png")
 
-windowWidth = 800
+windowWidth = 700
 windowHeight = 1000
 
 surface = pygame.display.set_mode((windowWidth, windowHeight))
