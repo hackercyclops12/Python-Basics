@@ -22,8 +22,8 @@ gameStarted = False
 gameEnded = False
 gamePlatforms = []
 platformSpeed = 3
-platformDelay = 2000
-lastPlatform = 0
+platformDelay = -10
+lastPlatform = 1
 platformsDroppedThrough = -1
 dropping = False
 
