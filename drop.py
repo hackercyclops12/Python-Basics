@@ -82,13 +82,13 @@ def movePlayer():
 
   if leftDown is True:
     if player["x"] > 0 and player["x"] - 5 > 0:
-      player["x"] -= 7
+      player["x"] -= 5
     elif player["x"] > 0 and player["x"] - 5 < 0:
       player["x"] = 0
 
   if rightDown is True:
     if player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 < windowWidth:
-      player["x"] += 7
+      player["x"] += 5
     elif player["x"] + player["width"] < windowWidth and (player["x"] + player["width"]) + 5 > windowWidth:
       player["x"] = windowWidth - player["width"]
 
