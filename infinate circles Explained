@@ -1,5 +1,0 @@
-# Python-basics-01
-Basics of python for the beginners
-this program uses Tk() to draw circles in various colors at a considerable pace,
-I have left a few options on canvas size that are up to you depending on how big you want your canvas 
-but I would recommend making the canvas full screen.
