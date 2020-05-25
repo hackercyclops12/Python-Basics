@@ -1,7 +1,0 @@
-# Python-basics-01
-Basics of python for the begginers 
-this program will display a number between 1 and 6
-and display it in a turtle window.
-to call the function use: rl()
-the number the program has just chose will be displayed inside the turtle window
-however when the function is called for a secound time it will erase you're previous number.
