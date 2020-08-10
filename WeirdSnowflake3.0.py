@@ -1,5 +1,6 @@
 from turtle import *
 import random
+print("The longer you wait the better this looks!")
 speed("fastest")
 pensize(20)
 N = 1
