@@ -1,15 +1,22 @@
+#import functions
 from turtle import *
 from math import *
 from time import *
 import colorsys
+
+#define and name variables
 speed('fastest')
 phi = 180*(3-sqrt(5))
 t = pen()
 speed(0)
+
+#define function
 def square (t, size):
     for tmp in range(0,4):
 	    forward(size)
 	    right(90)
+
+#create variable + mainloop
 num = 200
 while True:
     for x in reversed(range(0, num)):
