@@ -1,7 +1,12 @@
+#import functions
 from turtle import *
 from random import *
+
+#set variables
 style = ('Courier', 30, 'italic')
 color('deep pink')
+
+#declares roll function
 def rl ():
 	undo()
 	NUM = randint(1,6)
