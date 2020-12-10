@@ -1,16 +1,18 @@
 #Ghost Game
+
+#import functions 
 from random import randint
-from tkinter import *
+
+#define variables
 x = 1920
 y = 1080
-window = Tk()
-canvas = Canvas(window, width=x, height=y)
 
-
-
+#game setup
 print('Ghost Game')
 feeling_brave = True
 score = 0
+
+#mainloop
 while feeling_brave:
     ghost_door = randint(1,3)
     print('Three doors ahead . . .')
@@ -29,5 +31,7 @@ while feeling_brave:
         print('No Ghost')
         print('You enter the next room.')
         score = score + 1
+
+#end        
 print('Run away')
 print('Game over! you scored!', score)
