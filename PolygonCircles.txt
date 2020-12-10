@@ -1,8 +1,13 @@
-﻿from turtle import *
+#import functions
+from turtle import *
 from math import sin, cos, pi
+
+#declare variables
 r=200
 inc=2*pi/100
 t=0;n=1.5
+
+#mainloop
 for i in range(100):
     x1=r*sin(t);  y1=r*cos(t)
     x2=r*sin(t+n);y2=r*cos(t+n)
