@@ -1,7 +1,12 @@
+#import functions
 from turtle import *
+
+#set modes of the turtle
 penup()
 pensize(30)
 bk(250)
+
+#mainloop
 while True:
 	pendown()
 	circle(10)
