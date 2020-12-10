@@ -1,15 +1,20 @@
+#import functions
 import tkinter
 from math import sin,cos
 from random  import randint
+
+#define variable 
 x,y=320,200 
-  
+
+#define and organise functions 
 class App:
+    #draw image
     def __init__(self, t):
        self.img = tkinter.PhotoImage(width=x,height=y) 
        self.c = tkinter.Label(t,image=self.img);self.c.pack()
        t.after_idle(self.do_rotozoom)
        self.ang=0
-       
+    #rotate image
     def do_rotozoom(self):
        self.ang=(self.ang+1)%100
        cs1=cs[self.ang]
