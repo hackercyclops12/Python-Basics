@@ -1,7 +1,10 @@
+#import functions
 import pygame, sys, random
 import pygame.locals as GAME_GLOBALS
 import pygame.event as GAME_EVENTS
 from time import sleep
+
+#set window and variables
 pygame.init()
 clock = pygame.time.Clock()
 windowWidth = 1920
@@ -16,6 +19,8 @@ blueSquareX = 0.0
 blueSquareY = 0.0
 blueSquareVX = 1
 blueSquareVY = 1
+
+#mainloop
 while True:
     COL1 = random.randint(0,255)
     COL2 = random.randint(0,255)
