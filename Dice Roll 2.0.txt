@@ -1,6 +1,11 @@
+#import functions
 import turtle
 from random import *
+
+#set variable
 style = ('Courier', 30, 'italic')
+
+#define functions
 def rl ():
 	turtle.undo()
 	turtle.color('deep pink')
