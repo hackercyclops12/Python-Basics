@@ -1,8 +1,13 @@
+#import functions
 from turtle import *
+
+#declare variables and turtle modes
 penup()
 pensize(30)
 bk(250)
 hideturtle()
+
+#mainloop
 while True:
 	pendown()
 	color('red')
