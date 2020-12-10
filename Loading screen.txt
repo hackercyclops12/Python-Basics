@@ -1,7 +1,12 @@
-﻿import turtle
+#import functions
+import turtle
+
+#declare variables and turtle modes
 turtle.penup()
 turtle.pensize(30)
 turtle.bk(250)
+
+#mainloop
 while True:
 	turtle.pendown()
 	turtle.circle(10)
