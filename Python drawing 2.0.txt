@@ -1,15 +1,22 @@
+#import functions
 from turtle import *
 from math import *
 import colorsys
+
+#declare and name variables
 phi = 180*(3-sqrt(5))
 t = pen()
 speed(0)
+
+#define function
 def square (t, size):
     for tmp in range(0,4):
 	    forward(size)
 	    right(90)
+#declare another variable
 num = 200
 
+#mainloop
 for x in reversed(range(0, num)):
     fillcolor(colorsys.hsv_to_rgb(x/num, 1.0, 1.0))
     begin_fill()
