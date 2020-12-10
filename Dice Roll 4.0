@@ -1,9 +1,14 @@
+#import  functions
 from turtle import *
 from random import *
+
+#define variables and modes of the turtle
 style = ('Courier', 250, 'italic')
 color('deep pink')
 bgcolor('grey')
 hideturtle()
+
+#define roll function
 def rl ():
 	clear()
 	NUM = randint(1,6)
