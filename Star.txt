@@ -1,6 +1,11 @@
-﻿from turtle import *
+#import function
+from turtle import *
+
+#define variable + start filling current area
 color('red', 'yellow')
 begin_fill()
+
+#mainloop
 while True:
     forward(200)
     left(170)
