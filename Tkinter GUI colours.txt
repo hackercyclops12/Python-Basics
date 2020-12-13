@@ -1,2 +1,0 @@
-﻿The colors "white", "black", "red", "green", "blue", "cyan", "yellow", "pink", "orange", "purple" 
-and "magenta" will always be available.
