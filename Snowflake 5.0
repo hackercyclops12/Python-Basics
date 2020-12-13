@@ -1,17 +1,26 @@
+#import functions
 from turtle import *
 import random
+
+#define variables + assign colors to said variables
 COL = random.choice(['red','orange','yellow','green','blue','magenta'])
 COL2 = random.choice(['red','orange','yellow','green','blue','magenta'])
+
+#check that the 2 colors chosen are not the same if so change them
 if COL == COL2:
     COL = random.choice(['red','orange','yellow','green','blue','magenta'])
 else:
     color(COL)
+    
+#set turtle modes + change background color of the window
 bgcolor(COL2)
 speed('fastest')
 penup()
 forward(90)
 left(45)
 pendown()
+
+#define function
 def branch():
     for i in range (3):
         for i in range (3):
@@ -23,6 +32,8 @@ def branch():
         left(45)
     right(90)
     forward(90)
+    
+#mainloop
 for i in range (8):
     branch()
     left(45)
