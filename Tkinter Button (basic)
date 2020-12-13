@@ -1,12 +1,16 @@
+#import functions
 import tkinter as tk
 from tkinter import ttk
 
+#define variables
 parent = tk.Tk()
-
 tvar = tk.StringVar()
+
+#define function
 def swaptext():
     tvar.set('There!' if tvar.get() == 'Hi!' else 'Hi!')
 
+#create variable + run it 
 my_button = ttk.Button(parent, textvariable=tvar, command=swaptext)
 my_button.pack()
 
