@@ -1,5 +1,8 @@
+#import functions
 from turtle import *
 import random
+
+#set modes of the turtle
 bgcolor('dark blue')
 speed('fastest')
 color('cyan')
@@ -7,6 +10,8 @@ penup()
 forward(90)
 left(45)
 pendown()
+
+#define new function
 def branch():
     for i in range (3):
         for i in range (3):
@@ -18,6 +23,8 @@ def branch():
         left(45)
     right(90)
     forward(90)
+    
+#mainloop
 for i in range (8):
     branch()
     left(45)
