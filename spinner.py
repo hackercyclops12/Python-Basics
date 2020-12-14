@@ -1,8 +1,15 @@
+#import function
 from turtle import *
+
+#defien turtle modes + variable 
 speed('fastest')
 v = 66
 pensize(150)
+
+#change background color of the window 
 bgcolor('grey')
+
+#mainloop
 while True:
     v = v + 0.5
     right(90)
