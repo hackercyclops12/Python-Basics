@@ -1,11 +1,14 @@
+#import function
+import tkinter as tk
+
+#define variables
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 BLUE = (0, 0, 255)
 GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 
-import tkinter as tk
-
+#draw window + push text to said window + add text box + add button
 root= tk.Tk()
 root.title("Txt2bin - converter")
 canvas1 = tk.Canvas(root, width = 400, height = 300,  relief = 'raised')
@@ -22,6 +25,7 @@ canvas1.create_window(200, 100, window=label2)
 entry1 = tk.Entry(root) 
 canvas1.create_window(200, 140, window=entry1)
 
+#mainloop
 def getSquareRoot (): 
     conversion = entry1.get()  
     label3 = tk.Label(root, text= 'The binary version of ' + conversion + ' is:',font=('helvetica', 10))
