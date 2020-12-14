@@ -1,10 +1,15 @@
+#import functions
 from turtle import *
 from math import sin, cos, pi
 import random
+
+#define variables
 r=200
 inc=2*pi/100
 t=0;n=1.5
 color(['blue'])
+
+#mainloop
 while True:
     x = random.randint(0,1920)
     y = random.randint(0,1080)
