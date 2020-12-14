@@ -1,10 +1,15 @@
-﻿import turtle
+#import function
+import turtle
+
+#set turtle modes
 turtle.penup()
 turtle.rt(90)
 turtle.forward(300)
 turtle.lt(90)
 turtle.pensize(30)
 turtle.pendown()
+
+#mainloop 
 while True:
 	turtle.speed(10)
 	turtle.color('red')
