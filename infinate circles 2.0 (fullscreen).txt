@@ -1,16 +1,18 @@
+#import functions
 from random import*
-
 from tkinter import*
 
+#define variables 
 size = 100
 x = 1920
 y = 1080
-
 window = Tk()
 
+#draw window 
 canvas = Canvas(window, width=x, height=y)
 canvas.pack()
 
+#mainloop
 while True:
     col = choice(['pink','orange','purple','yellow']) 
     x0 = randint(0, x)
@@ -18,3 +20,4 @@ while True:
     d = randint(0, size)
     canvas.create_oval(x0, y0, x0 + d, y0 + d, fill=col)
     window.update()
+    
