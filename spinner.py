@@ -1,7 +1,7 @@
 #import function
 from turtle import *
 
-#defien turtle modes + variable 
+#define turtle modes + variable 
 speed('fastest')
 v = 66
 pensize(150)
