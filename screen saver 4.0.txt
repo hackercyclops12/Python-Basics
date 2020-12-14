@@ -1,4 +1,7 @@
+#import function
 from turtle import *
+
+#set turtle modes 
 bgcolor('grey')
 hideturtle()
 penup()
@@ -8,6 +11,8 @@ lt(90)
 pensize(45)
 pendown()
 speed(25000)
+
+#mainloop
 while True:
 	speed(10)
 	color('red')
