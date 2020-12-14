@@ -1,10 +1,15 @@
+#import function
 from turtle import *
+
+#setup turtle and it's modes
 penup()
 rt(90)
 forward(300)
 lt(90)
 pensize(30)
 pendown()
+
+#mainloop
 while True:
 	speed(10)
 	color('red')
