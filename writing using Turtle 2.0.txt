@@ -1,6 +1,10 @@
+#import functions 
 from turtle import *
 
+#set style and color of the text 
 color('deep pink')
 style = ('Courier', 30, 'italic')
+
+#draw the text and hide the turtle 
 write('Hello!', font=style, align='center')
 hideturtle()
