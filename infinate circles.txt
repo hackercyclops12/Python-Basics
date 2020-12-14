@@ -1,25 +1,25 @@
+#import functions 
 from random import*
-
 from tkinter import*
 
+#define variables 
 size = 500
-
+#X = 1920
+#Y = 1080
 window = Tk()
 
+#draw window
+#replace size varible of "width" with X and "height" with Y for full screen circles
 canvas = Canvas(window, width=size, height=size)
- #replace width with x variable 1920 and height with y of 1080 for full screen circles! 
 canvas.pack()
 
+#mainloop
 while True:
-	
 	col = choice(['pink','orange','purple','yellow']) #change colors?
-	
 	x0 = randint(0, size)
  # replace  size var with x var for full screen circles	
 	y0 = randint(0, size)
  # replace  size var with y var for full screen circles	
 	d = randint(0, size/5)
-	
 	canvas.create_oval(x0, y0, x0 + d, y0 + d, fill=col)
-
 	window.update()
